@@ -1,0 +1,133 @@
+@import url(font.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto-Regular';
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav{
+    background: #322E41;
+}
+
+
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav__content-list{
+    display: flex;
+}
+
+.nav__content-link{
+    color: white;
+    padding: 23px 14px;
+    display: block;
+    transition: 0.5s;
+}
+
+.header{
+    background: url(../img/nike2\ 1.png) no-repeat center/cover;
+    height: 560px;
+    background-position: top;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto-Bold';
+}
+
+.header__text{
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 15px;
+}
+
+span{
+    font-family: 'Roboto-Bold';
+}
+
+
+.main{
+    /* background: #EBEBEB; */
+    background: #969191;
+    padding-bottom: 30px;
+}
+
+.main__content{
+    display: flex;
+}
+
+.main__content-left{
+    width: 540px;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: -35px;
+}
+
+
+.main__content-title{
+    font-family: 'Roboto-Bold';
+    padding: 20px 0 10px;
+    font-size: 22px;
+}
+
+.main__content-subtitle{
+    color:  #9B9B9B;
+    line-height: 18px;
+}
+
+
+.main__content-box{
+    width: 250px;
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.main__content-img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+
+
+.main__content-txt{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 12px;
+    font-family: 'Roboto-Bold';
+}
+
+
+.main__content-text{
+    color: #9B9B9B;
+}
+
+.main__content-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: -35px;
+    margin-left: 30px;
+}
